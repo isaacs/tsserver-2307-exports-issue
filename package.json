@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "bundleDependencies": [
+    "some-dep"
+  ],
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "ink-testing-library": "^3.0.0",
+    "some-dep": "file:some-dep-1.2.3.tgz",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "some-dep",
+  "version": "1.2.3",
+  "type": "module",
+  "exports": {
+    "types": "./build/index.d.ts",
+    "default": "./build/index.js"
+  }
+}
